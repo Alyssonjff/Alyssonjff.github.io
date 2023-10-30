@@ -4,8 +4,20 @@ body {
     padding: 0;
 }
 header {
-    background-color: aqua;
+    background-color: black;
     color: aliceblue;
     padding: 20px;
     text-align: center;
+}
+img {
+    max-width: 7%;
+    height: auto;
+    float: left;
+}
+.Image{
+    position: relative;
+    display: inline-block;
+    max-width: 10%;
+    float: left;
+    
 }
