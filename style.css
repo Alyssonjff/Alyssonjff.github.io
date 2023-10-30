@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: azure;
 }
 header {
     background-color: black;
@@ -13,13 +14,6 @@ img {
     max-width: 7%;
     height: auto;
     float: left;
-}
-.Image{
-    position: relative;
-    display: inline-block;
-    max-width: 10%;
-    float: left;
-    
 }
 footer{
     background-color: black;
