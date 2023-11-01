@@ -2,21 +2,44 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: azure;
+    background-color: white;
 }
 header {
-    background-color: black;
+    background-color: rgba(5, 131, 248, 0.622);
     color: aliceblue;
     padding: 20px;
     text-align: center;
 }
-img {
+.Perfil {
+    border: 1px solid black;
     max-width: 7%;
     height: auto;
     float: left;
+    display: flex;
 }
+img{
+    max-width: 7%;
+}
+.Contato{
+    height: auto;
+    max-width: 30%;
+    float: right;
+    display: flex;
+    margin: -20px;
+}
+.Contato:hover a{
+    color: white;
+  
+}
+.aba{
+    margin: 0;
+    border: #B0C4DE 10px solid;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
 footer{
-    background-color: black;
+    background-color: rgba(5, 131, 248, 0.622);
     color: white;
     text-align: center;
     padding: 20px;
