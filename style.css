@@ -4,12 +4,14 @@ body {
     padding: 0;
     background-color: white;
 }
+
 header {
     background-color: rgba(5, 131, 248, 0.622);
     color: aliceblue;
     padding: 20px;
     text-align: center;
 }
+
 .Perfil {
     border: 1px solid black;
     max-width: 7%;
@@ -17,20 +19,24 @@ header {
     float: left;
     display: flex;
 }
+
 img{
     max-width: 7%;
 }
+
 .Contato{
+    font-size: 15px;
     height: auto;
     max-width: 30%;
     float: right;
     display: flex;
     margin: -20px;
 }
+
 .Contato:hover a{
     color: white;
-  
 }
+
 .aba{
     margin: 0;
     border: #B0C4DE 10px solid;
