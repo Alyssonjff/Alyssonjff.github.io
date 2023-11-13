@@ -25,12 +25,10 @@ img{
 }
 
 .Contato{
-    font-size: 15px;
-    height: auto;
-    max-width: 30%;
-    float: right;
-    display: flex;
-    margin: -20px;
+    align-items: center;
+    max-width: 2%;
+    padding: 5px;
+    margin: auto;
 }
 
 .Contato:hover a{
