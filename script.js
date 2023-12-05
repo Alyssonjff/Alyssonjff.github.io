@@ -1,16 +1,16 @@
-function submitForm(){
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var Mensage = document.getElementById('Mensage').value;
-    if (name == ''){
-        alert('O nome não pode estar vazio');
-    }else if(email == ''){
-        alert('O email não pode estar vazio');
 
-    }else if(Mensage == ''){
-        alert('A mensagem não pode estar vazio');
-    }else{
-        alert(name + ' ' + email + ' ' + Mensage);
-    }
+let btnMenu = document.getElementById('btn-menu');
+let menu = document.getElementById('menu-mobile');
+let overlay = document.getElementById('overlay-menu');
 
-}
+btnMenu.addEventListener('click', ()=> {
+    menu.classList.add('abrir-menu');
+});
+
+menu.addEventListener('click', ()=> {
+    menu.classList.remove('abrir-menu');
+});
+
+overlay.addEventListener('click', ()=> {
+    menu.classList.remove('abrir-menu');
+});
