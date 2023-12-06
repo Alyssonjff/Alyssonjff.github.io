@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #2cbc59;
     height: 100vh;
 }
 
@@ -59,7 +59,7 @@ header>.interface {
 }
 
 header a {
-    color: #5c5c5c;
+    color: whitesmoke;
     text-decoration: none;
     display: inline-block;
 }
@@ -179,38 +179,6 @@ section.topo-do-site .flex {
     100% {
         top: 30px;
     }
-}
-
-
-section.especialidades {
-    padding: 80px 4%;
-}
-
-section.especialidades .flex {
-    gap: 60px;
-}
-
-.especialidades .especialidades-box {
-    color: #fff;
-    padding: 40px;
-    border-radius: 40px;
-    margin-top: 45px;
-    transition: .2s;
-}
-
-.especialidades .especialidades-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 8px #ffffff78;
-}
-
-.especialidades .especialidades-box i {
-    font-size: 58px;
-    color: #1abdd4;
-}
-
-.especialidades .especialidades-box h3 {
-    font-size: 20px;
-    margin: 15px 0;
 }
 
 section.sobre {
